@@ -36,3 +36,238 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 1px 450px;
+  text-align: center;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.box:nth-child(even) {
+  background-color: #ccc;
+  color: #000;
+}
+
+.wrapper {
+  /* display: grid; */
+  grid-gap: 1px;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  margin-bottom: 2em;
+}
+
+.clear {
+  background-color: rgb(255, 30, 30);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.clear:hover {
+  background-color: rgb(175, 2, 2);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+.info {
+  background-color: rgb(29, 255, 40);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.info:hover {
+  background-color: rgb(0, 156, 13);
+  color: rgb(255, 255, 255);
+}
+
+.in{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.close {
+  background-color: rgb(0, 93, 233);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.close:hover {
+  background-color: rgb(27, 162, 235);
+  color: rgb(255, 255, 255);
+}
+
+
+.fruits {
+  background-color: rgb(232, 173, 14);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.fruits:hover {
+  background-color: rgb(209, 154, 0);
+  color: rgb(255, 255, 255);
+}
+
+
+
+.review {
+  background-color: rgb(200, 0, 250);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.review:hover {
+  background-color: rgb(106, 0, 192);
+  color: rgb(255, 255, 255);
+}
+
+
+.fruit-header {
+  list-style-type: lower-alpha;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+
+.create {
+  background-color: rgb(29, 255, 40);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.create:hover {
+  background-color: rgb(0, 156, 13);
+  color: rgb(255, 255, 255);
+}
+
+.home {
+  background-color: rgb(255, 0, 0);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.home:hover {
+  background-color: rgb(140, 1, 1);
+  color: rgb(255, 255, 255);
+}
+
+.list {
+  background-color: rgb(0, 174, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.list:hover {
+  background-color: rgb(1, 85, 131);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+.er {
+  background-color: rgb(229, 255, 0);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.er:hover {
+  background-color: rgb(122, 114, 1);
+  color: rgb(255, 255, 255);
+}
